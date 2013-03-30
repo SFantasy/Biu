@@ -1,0 +1,112 @@
+/*
+   Biu - A Basic UI Library for building web sites
+
+   Author: SFantasy (me@shaofantasy.cn)
+*/
+
+/* Global configuration */
+div, body {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 980px;
+}
+ul, li, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a:link {
+  color: #d5d5d5;
+}
+
+a {
+  cursor: pointer;
+}
+
+/* Navigator Bar */
+.navbar {
+  height: 28px;
+  width: 100%;
+  min-width: 980px;
+  color: #d5d5d5;
+  font-size: 13px;
+  background-color: #545652;
+  overflow: visible;
+}
+
+.nav-items  li {
+  display: inline-block;
+  line-height: 28px;
+}
+
+.nav-items a {
+  padding: 0 12px;
+}
+
+.nav-top-fixed, .nav-buttom-fixed {
+  position: fixed;
+  margin-bottom: 0;
+}
+
+.nav-top-fixed {
+  top: 0;
+}
+
+.nav-buttom-fixed {
+  buttom: 0;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  margin-top: 70px;
+}
+/* Layouts */
+.span1 {
+  width: 89x;
+}
+
+.span2 {
+  width: 188px;
+}
+
+.span3 {
+  width: 287px;
+}
+
+.span4 {
+  width: 386px;
+}
+
+.span5 {
+  width: 485px;
+}
+
+.span6 {
+  width: 584px;
+}
+
+.span7 {
+  width: 683px;
+}
+
+.span8 {
+  width: 782px;
+}
+
+.span9 {
+  width: 881px;
+}
+
+.span10 {
+  .width: 980px;
+}
+
+/* Color */
+
