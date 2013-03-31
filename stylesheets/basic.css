@@ -5,13 +5,15 @@
 */
 
 /* Global configuration */
-div, body {
-  display: block;
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+div, body, ul, li, ol, h1, h2, h3, h4, small, pre, p{
   margin: 0;
   padding: 0;
 }
 
-.container {
+.container, .inner {
   margin: 0 auto;
   width: 980px;
 }
@@ -21,11 +23,12 @@ ul, li, ol {
   margin: 0;
 }
 
-a:link {
+.navbar a:active, .navbar a:link, .navbar a:hover, .navbar a:visited {
   color: #d5d5d5;
 }
 
 a {
+  text-decoration: none;
   cursor: pointer;
 }
 
@@ -33,7 +36,6 @@ a {
 .navbar {
   height: 28px;
   width: 100%;
-  min-width: 980px;
   color: #d5d5d5;
   font-size: 13px;
   background-color: #545652;
@@ -49,6 +51,12 @@ a {
   padding: 0 12px;
 }
 
+.nav-items a.active {
+  padding: 15px 20px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #077;
+}
 .nav-top-fixed, .nav-buttom-fixed {
   position: fixed;
   margin-bottom: 0;
@@ -62,12 +70,47 @@ a {
   buttom: 0;
 }
 
+/* intro-unit */
+.intro-unit {
+  padding: 40px 0 20px 0;
+  background-color: #edf4ed;
+}
+
+.intro-unit h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.intro-unit small {
+  font-size: 15px;
+  color: #777;
+}
+
+/* hlist (home list) */
+.hlist {
+  margin: 10px 0 10px 0;
+}
+
+.hlist h2 {
+  font-size: 18px;
+  color: #075;
+}
+
 /* Footer */
 .footer {
   text-align: center;
   margin-top: 70px;
 }
 /* Layouts */
+#showlayout [class*="span"] {
+  background-color: #eee;
+  text-align: center;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  min-height: 40px;
+  line-height: 40px;
+}
 .span1 {
   width: 89x;
 }
@@ -105,8 +148,11 @@ a {
 }
 
 .span10 {
-  .width: 980px;
+  width: 980px;
 }
 
+.offset1 {
+  
+}
 /* Color */
 
