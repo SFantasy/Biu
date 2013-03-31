@@ -94,6 +94,7 @@ a {
 .hlist h2 {
   font-size: 18px;
   color: #075;
+  margin: 10px 0 20px 0;
 }
 
 /* Footer */
@@ -102,6 +103,22 @@ a {
   margin-top: 70px;
 }
 /* Layouts */
+.row {
+  margin-left: -10px;
+  margin-bottom: 20px;
+}
+
+.row:before, .row:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+[class*="span"] {
+  float: left;
+  margin-left: 10px;
+}
+
 #showlayout [class*="span"] {
   background-color: #eee;
   text-align: center;
@@ -109,10 +126,10 @@ a {
   -moz-border-radius: 2px;
   border-radius: 2px;
   min-height: 40px;
-  line-height: 40px;
+  line-height: 40px;  
 }
 .span1 {
-  width: 89x;
+  width: 89px;
 }
 
 .span2 {
