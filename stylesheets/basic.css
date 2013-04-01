@@ -58,6 +58,10 @@ a {
   padding: 0 12px;
 }
 
+.nav-items a:hover {
+  color: #fff;
+}
+
 .nav-items a.active {
   padding: 15px 20px;
   font-size: 14px;
@@ -79,17 +83,20 @@ a {
 
 /* intro-unit */
 .intro-unit {
-  padding: 40px 0 20px 0;
+  padding: 60px 0 20px 0;
   background-color: #edf4ed;
 }
 
 .intro-unit h1 {
-  font-size: 50px;
+  font-size: 60px;
   font-weight: bold;
 }
 
+.intro-unit h1 small {
+  font-size: 40px;
+}
 .intro-unit small {
-  font-size: 15px;
+  font-size: 20px;
   color: #777;
 }
 
@@ -218,8 +225,34 @@ a {
 /* Color */
 
 
+/* Buttons */
+.button-box {
+  margin: 20px 0 20px 0;  
+}
+
+.db-btn {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.db-btn a:link, .db-btn a:visited {
+  background: none repeat scroll 0 0 #deede0;
+  border: 1px solid #b8d9be;
+  color: #589c66;
+  min-width: 58px;
+}
+
+.db-btn a {
+  border-radius: 2px;
+  display: inline-block;
+  padding: 5px 0;
+  text-align: center;
+  line-height: 1.2;
+}
+
 /* Footer */
 .footer {
+  min-height: 40px;
   font-size: 13px;
   color: #333333;
   background-color: #edf4ed;
