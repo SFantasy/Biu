@@ -1,0 +1,13 @@
+# Biu
+---
+
+## What's this?
+
+* Biu is a Simple & Stupid UI Library for green-hands to build tiny and lovely websites.
+
+* Influence by [Bootstrap](http://twitter.github.com/bootstrap) and [Douban](http://www.douban.com)
+
+
+## Licence
+
+Based on [MIT Licence](http://en.wikipedia.org/wiki/MIT_License).
