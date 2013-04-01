@@ -7,7 +7,13 @@
 /* Global configuration */
 body {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  heigth: 100%;
 }
+
+footer, nav, section, figure, article, aside {
+  display: block;
+}
+
 div, body, ul, li, ol, h1, h2, h3, h4, small, pre, p{
   margin: 0;
   padding: 0;
@@ -17,6 +23,7 @@ div, body, ul, li, ol, h1, h2, h3, h4, small, pre, p{
   margin: 0 auto;
   width: 980px;
 }
+
 ul, li, ol {
   list-style: none;
   padding: 0;
@@ -62,12 +69,12 @@ a {
   margin-bottom: 0;
 }
 
-.nav-top-fixed {
+.top-fixed {
   top: 0;
 }
 
-.nav-buttom-fixed {
-  buttom: 0;
+.bottom-fixed {
+  bottom: 0;
 }
 
 /* intro-unit */
@@ -124,7 +131,7 @@ a {
   margin-left: 10px;
 }
 
-#showlayout [class*="span"] {
+.showlayout [class*="span"] {
   background-color: #eee;
   text-align: center;
   -webkit-border-radius: 2px;
@@ -174,7 +181,48 @@ a {
 }
 
 .offset1 {
-  
+  margin-left: 99px;
+}
+
+.offset2 {
+  margin-left: 198px;
+}
+
+.offset3 {
+  margin-left: 297px;
+}
+
+.offset4 {
+  margin-left: 396px;
+}
+
+.offset5 {
+  margin-left: 495px;
+}
+
+.offset6 {
+  margin-left: 594px;
+}
+
+.offset7 {
+  margin-left: 693px;
+}
+
+.offset8 {
+  margin-left: 792px;
+}
+
+.offset9 {
+  margin-left: 891px; 
 }
 /* Color */
 
+
+/* Footer */
+.footer {
+  font-size: 13px;
+  color: #333333;
+  background-color: #edf4ed;
+  border-top: 1px solid #f5f5f5;
+  padding: 30px 0;
+}
