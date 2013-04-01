@@ -88,13 +88,14 @@ a {
 
 /* hlist (home list) */
 .hlist {
-  margin: 10px 0 10px 0;
+  margin: 40px 0 10px 0;
 }
 
 .hlist h2 {
   font-size: 18px;
   color: #075;
   margin: 10px 0 20px 0;
+  border-bottom: 1px solid #eeeeee;
 }
 
 /* Footer */
@@ -106,6 +107,10 @@ a {
 .row {
   margin-left: -10px;
   margin-bottom: 20px;
+}
+
+.row:after {
+  clear: both;
 }
 
 .row:before, .row:after {
