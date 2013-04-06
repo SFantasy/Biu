@@ -114,19 +114,44 @@ a {
 
 /* list unit */
 .list-unit {
-  float: right;
-  width: 600px;
+  margin: 20px 0 20px 0;
   overflow: hidden;
-  border-bottom: 1px solid #eeebe7;
   color: #666666;
   padding-bottom: 26px;
 }
 
-/* Footer */
-.footer {
-  text-align: center;
-  margin-top: 70px;
+.list-items {
+  border-bottom: 1px solid #eeebe7;
+  padding: 0 0 10px 0;
 }
+
+.list-items .list-title {
+  margin: 10px 0 10px 0;
+}
+.list-items h3 {
+  font-size: 20px;
+}
+
+.list-items a {
+  text-decoration: none;
+  color: #666666;
+}
+
+.list-items a:hover {
+  color: #777;
+}
+
+.list-content xmp {
+  border: 1px solie #cccccc;
+  border-radius: 3px;
+  line-height: 18px;
+  padding: 5px 0 5px 0; 
+  background-color: #f8f8f8;
+  font-family: "Source Code Pro", Consolas, sans-serif;
+  font-size: 13px;
+  overflow: auto;
+}
+
 /* Layouts */
 .row {
   margin-left: -10px;
@@ -244,18 +269,24 @@ a {
 
 /* Buttons */
 .button-box {
-  margin: 20px 0 20px 0; 
+  margin: 0;
+  padding: 0;
   overflow: hidden; 
 }
 
 .db-btn {
-  display: block;
+  margin: 10px 10px 10px 0;
   margin-bottom: 10px;
 }
 
-.db-btn a:link, .db-btn a:visited {
+.btn-red a:link, .btn-red a:visited {
   background: none repeat scroll 0 0 #fae9da;
   color: #ca6445;
+}
+
+.btn-green a:link, .btn-green a:visited {
+  background: none repeat scroll 0 0 #deede0;
+  color: #589c66;
 }
 
 .db-btn a {
@@ -269,6 +300,7 @@ a {
 
 /* Footer */
 .footer {
+  text-align: center;
   min-height: 40px;
   font-size: 13px;
   color: #333333;
