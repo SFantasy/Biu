@@ -6,7 +6,7 @@
 
 /* Global configuration */
 body {
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   heigth: 100%;
 }
 
@@ -75,6 +75,7 @@ a {
 
 .top-fixed {
   top: 0;
+  position: fixed;
 }
 
 .bottom-fixed {
@@ -92,6 +93,7 @@ a {
   color: #d5d5d5;
   background-color: #545652;
   padding: 8px 14px;
+  font-size: 14px;
 }
 
 .menu-flat > li > a:hover {
@@ -127,6 +129,12 @@ a {
   color: #005580;  
 }
 
+.menu-fixed {
+  top: 40px;
+  position: fixed;
+}
+
+
 /* intro-unit */
 .intro-unit {
   padding: 60px 0 20px 0;
@@ -148,11 +156,12 @@ a {
 
 /* hlist (home list) */
 .hlist {
+  padding-top: 30px;
   margin: 40px 0 10px 0;
 }
 
 .hlist h2 {
-  font-size: 18px;
+  font-size: 24px;
   color: #075;
   margin: 10px 0 20px 0;
   border-bottom: 1px solid #eeeeee;
@@ -162,6 +171,46 @@ a {
   font-size: 14px;
   color: #668b8b;
   margin: 10px 0 10px 0;
+}
+
+/* table */
+table {
+  font-size: 14px;
+  color: #333;
+}
+
+table code {
+  border-radius: 2px 2px 2px 2px;
+  border: 1px solid #ccc;
+  color: #777;
+  font-size: 12px;
+  padding: 3px;
+}
+
+.tb-bs {
+  background: transparent;
+  border-collapse: separate;
+  border-color: #ddd #ddd #ddd;
+  border-radius: 4px 4px 4px 4px;
+  border-style: solid solid solid none;
+  border-width: 1px 1px 1px 0;
+  border-spacing: 0;
+  max-width: 100%;
+}
+
+.tb-bs th {
+  line-height: 20px;
+  padding: 8px;
+  text-align: left;
+}
+
+.tb-bs thead:first-child tr:first-child th {
+  border-top: 0 none;
+}
+
+.tb-bs th, .tb-bs td {
+  border-left: 1px solid #ddd;
+  border-top: 1px solid #ddd;
 }
 
 /* list unit */
@@ -223,6 +272,10 @@ xmp {
 [class*="span"] {
   float: left;
   margin-left: 10px;
+}
+
+.span-right {
+  float: right;
 }
 
 .showlayout [class*="span"] {
@@ -321,6 +374,7 @@ xmp {
 }
 
 /* Buttons */
+
 .button-box {
   margin: 0;
   padding: 0;
@@ -332,23 +386,28 @@ xmp {
   margin-bottom: 10px;
 }
 
-.btn-red a:link, .btn-red a:visited {
+.btn-red, .btn-red a{
   background: none repeat scroll 0 0 #fae9da;
   color: #ca6445;
 }
 
-.btn-green a:link, .btn-green a:visited {
+.btn-green, .btn-green a {
   background: none repeat scroll 0 0 #deede0;
   color: #589c66;
 }
 
-.db-btn a {
-  border-radius: 2px;
+.btn-db {
+  border: 0 none;
+  border-radius: 2px 2px 2px 2px;
   display: inline-block;
   padding: 5px 0;
   text-align: center;
   line-height: 1.2;
   min-width: 58px;
+}
+
+.btn-bs {
+  
 }
 
 /* Footer */
