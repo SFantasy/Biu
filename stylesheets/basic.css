@@ -63,7 +63,7 @@ a {
 }
 
 .nav-items a.active {
-  padding: 15px 20px;
+  padding: 5px 20px 15px;
   font-size: 14px;
   color: #fff;
   background-color: #077;
@@ -79,6 +79,52 @@ a {
 
 .bottom-fixed {
   bottom: 0;
+}
+
+/* menu */
+[class*="menu"] {
+  width: 256px;
+}
+
+.menu-flat > li > a {
+  border: 1px solid #e5e5e5;
+  display: block;
+  color: #d5d5d5;
+  background-color: #545652;
+  padding: 8px 14px;
+}
+
+.menu-flat > li > a:hover {
+  color: #fff;
+  background-color: #077;
+}
+
+.menu-bs {
+  background-color: #fff;
+  border-radius: 6px 6px 6px 6px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+  padding: 0;
+}
+
+.menu-bs > li:first-child > a {
+  border-radius: 6px 6px 0 0;
+}
+
+.menu-bs > li:last-child > a {
+  border-radius: 0 0 6px 6px;
+}
+
+.menu-bs > li > a {
+  border: 1px solid #e5e5e5;
+  display: block;
+  margin: 0 0 -1px;
+  padding: 8px 14px;
+  color: #0088cc;
+}
+
+.menu-bs > li > a:hover {
+  background-color: #f5f5f5;
+  color: #005580;  
 }
 
 /* intro-unit */
@@ -112,6 +158,12 @@ a {
   border-bottom: 1px solid #eeeeee;
 }
 
+.hlist h3 {
+  font-size: 14px;
+  color: #668b8b;
+  margin: 10px 0 10px 0;
+}
+
 /* list unit */
 .list-unit {
   margin: 20px 0 20px 0;
@@ -141,7 +193,7 @@ a {
   color: #777;
 }
 
-.list-content xmp {
+xmp {
   border: 1px solie #cccccc;
   border-radius: 3px;
   line-height: 18px;
@@ -257,6 +309,7 @@ a {
 .offset9 {
   margin-left: 891px; 
 }
+
 /* Color */
 .bg-light-green a:link, .bg-ligth-green a:visited {
   background: none repeat scroll 0 0 #deede0;
