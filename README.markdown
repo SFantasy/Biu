@@ -1,6 +1,10 @@
 # Biu
 ---
 
+Doc site:
+
+[shaofantasy.cn/Biu](http://shaofantasy.cn/Biu)  
+
 ## What's this?
 
 * Biu is a Simple & Stupid UI Library for green-hands to build tiny and lovely websites.
