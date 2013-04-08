@@ -472,6 +472,62 @@ xmp {
   background-color: #bd362f;  
 }
 
+/* Paginator */
+.paginator {
+  font-size: 14px;
+  color: #000;
+  margin: 20px 0;
+  line-height: 150%;
+}
+
+.paginator a, .paginator span, .paginator-db a, .paginator-db span {
+  padding: 0 6px;
+  margin: 0.5px;
+}
+
+.paginator a {
+  color: #000;
+}
+
+.paginator a:hover {
+  background: #000;
+  color: #fff;
+  -webkit-trasition: color .2s linear;
+         transition: color .2s linear;
+}
+
+.pag-disable {
+  color: #999;
+}
+
+.pag-current {
+  color: #f9f9f9;
+  background-color: #000;
+}
+
+.paginator-db {
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+.pag-db-disable {
+  color: #aaa;
+}
+
+.paginator-db a {
+  color: #3377aa;
+}
+
+.paginator-db a:hover {
+  color: #fff;
+  background-color: #3377aa;
+}
+
+.pag-db-current {
+  color: #fff;
+  background-color: #83bf73;
+}
+
 /* Footer */
 .footer {
   text-align: center;
