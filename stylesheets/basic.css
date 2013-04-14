@@ -481,6 +481,54 @@ xmp {
   background-color: #bd362f;  
 }
 
+[class*="btn-biu"] {
+  color: #fff;
+  font-style: bold;
+  background-color: #000;
+  border: none;
+  padding: 10px 10px;
+}
+
+[class*="btn-biu"]:hover {
+  -webkit-trasition: background-color .2s linear;
+         transition: background-color .2s linear;
+}
+
+.btn-biu {
+  color: #000;
+  background-color: #fff;
+}
+
+.btn-biu:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.btn-biu-blue {
+  background-color: #0088cc;
+}
+
+.btn-biu-blue:hover {
+  background-color: #007733;
+}
+
+.btn-biu-green {
+  background-color: #00aa77;
+}
+
+.btn-biu-green:hover {
+  background-color: #0011ff;
+}
+
+.btn-biu-red {
+  color: #000;
+  background-color: #fff;
+}
+
+.btn-biu-red:hover {
+  background-color: #ff0000;
+  color: #fff;
+}
 /* Paginator */
 .paginator {
   font-size: 14px;
