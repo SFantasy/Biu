@@ -65,6 +65,34 @@
     <li><a href="">item3</a></li>
   </ul>
 </nav></xmp>
+			<h3>3. More items</h3>
+			<nav class="navbar">
+				<ul class="nav-items">
+					<li><a class="active" href="">item1</a></li>
+					<li><a href="">item3</a></li>
+					<li><a onclick="showItems()"><span>more-items</span></a>
+						<ul class="more-items">
+							<li><a href="">more-1</a></li>
+							<li><a href="">more-2</a></li>
+							<li><a href="">more-3</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+			<h3>Code</h3>
+			<xmp><nav class="navbar">
+  <ul class="nav-items">
+	<li><a class="active" href="">item1</a></li>
+	<li><a href="">item3</a></li>
+    <li><a onclick="showItems()"><span>more-items</span></a>
+      <ul class="more-items">
+        <li><a href="">more-1</a></li>
+        <li><a href="">more-2</a></li>
+        <li><a href="">more-3</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></xmp>
 		</div>
 			<div id="menu" class="hlist">
 			  <h2>Menu</h2>
@@ -269,5 +297,7 @@
 	  		<p>MIT Licence</p>
 		</div>
 	</footer>
+	<script src="js/biu.js"></script>
+	<script src="js/jquery.js"></script>
   </body>
 </html>

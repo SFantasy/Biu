@@ -69,11 +69,40 @@ a {
 }
 
 .nav-items a.active {
-  padding: 5px 20px 15px;
+  padding: 6px 20px 15px;
   font-size: 14px;
   color: #fff;
   background-color: #077;
 }
+
+.more-items {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+}
+
+.more-items li {
+  display: block;
+  height: 28px;
+}
+
+.more-items a {
+  padding: 3px 12px;
+}
+
+.more-items a:link, .more-items a:visited, .more-items a:active {
+  color: #000;
+}
+
+.more-items a:hover {
+  background-color: #077;
+  color: #fff;
+}
+
+.more-items {
+  border-bottom: 1px solid #ccc;
+}
+
 .nav-top-fixed, .nav-buttom-fixed {
   position: fixed;
   margin-bottom: 0;
