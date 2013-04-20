@@ -49,7 +49,6 @@ a {
 .navbar {
   height: 28px;
   width: 100%;
-  color: #d5d5d5;
   font-size: 13px;
   background-color: #545652;
   overflow: visible;
@@ -61,6 +60,7 @@ a {
 }
 
 .nav-items a {
+  color: #d5d5d5;
   padding: 0 12px;
 }
 
@@ -69,11 +69,37 @@ a {
 }
 
 .nav-items a.active {
-  padding: 5px 20px 15px;
+  padding: 6px 20px 15px;
   font-size: 14px;
   color: #fff;
   background-color: #077;
 }
+
+.more-items {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+}
+
+.more-items li {
+  display: block;
+  height: 28px;
+}
+
+.more-items a {
+  color: #000;
+  padding: 3px 12px;
+}
+
+.more-items a:hover {
+  background-color: #077;
+  color: #fff;
+}
+
+.more-items {
+  border-bottom: 1px solid #ccc;
+}
+
 .nav-top-fixed, .nav-buttom-fixed {
   position: fixed;
   margin-bottom: 0;
@@ -530,7 +556,7 @@ xmp {
 }
 
 .btn-biu-green:hover {
-  background-color: #0011ff;
+  background-color: #00ccff;
 }
 
 .btn-biu-red {
@@ -541,6 +567,54 @@ xmp {
 .btn-biu-red:hover {
   background-color: #ff0000;
   color: #fff;
+}
+/* Form*/
+.form-login {
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+  border: 1px solid #ccc;
+  padding: 10px 50px;
+  width: 300px;
+}
+
+.form-item label {
+  float: left;
+  text-align: right;
+  width: 60px;
+  font-size: 14px;
+  line-height: 30px;
+  margin-right: 15px;
+}
+
+.form-input {
+  padding: 5px;
+  vertical-align: middle;
+  height: 18px;
+  font-size: 14px;
+  border: 1px solid #c9c9c9;
+}
+
+.form-item {
+  margin: 0;
+  padding: 5px;
+}
+
+.form-text {
+  width: 500px;
+  padding: 0px;
+}
+
+.form-text textarea {
+  padding: 7px 25px 7px 7px;
+  height: 16px;
+  border: 1px solid #ccc;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0,067);
+  overflow: hidden;
+  line-height: 1.3;
+  background: transparent;
+  width: 500px;
+          transition: all .1s;
+  -webkit-transition: all .1s;
 }
 /* Paginator */
 .paginator {
