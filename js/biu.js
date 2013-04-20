@@ -1,6 +1,6 @@
 /*
  *   Require jquery.js v1.9.1
-*/
+ */
 
 // show hidden items
 $('.show-more').bind('click', function() {
