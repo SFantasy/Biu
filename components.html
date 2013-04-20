@@ -26,6 +26,7 @@
 			<li><a href="#nav">Nav</a></li>
 			<li><a href="#menu">Menu</a></li>
 			<li><a href="#button">Button</a></li>
+			<li><a href="#form">Form</a></li>
 			<li><a href="#paginator">Paginator</a></li>
 		  </ul>
 		</div>
@@ -70,7 +71,8 @@
 				<ul class="nav-items">
 					<li><a class="active">item1</a></li>
 					<li><a>item3</a></li>
-					<li><a onclick="showItems()"><span>more-items</span></a>
+					<li>
+						<a class="show-more"><span>more-items</span></a>
 						<ul class="more-items">
 							<li><a>more-1</a></li>
 							<li><a>more-2</a></li>
@@ -253,6 +255,65 @@
 				</tbody>
 			  </table>
 			</div>
+			<div id="form" class="hlist">
+				<h2>Form</h2>
+				<h3>1. Login form</h3>
+				<div class="form-login">
+					<form>
+						<div class="form-item">
+							<label>Username</label>
+							<input class="form-input" type="text" placeholder="Email/Tel" />
+						</div>
+						<div class="form-item">
+							<label>Password</label>
+							<input class="form-input" type="password" />
+						</div>
+						<div class="form-item">
+							<label>&nbsp</label>
+							<input class="btn-biu-blue" type="submit" value="Login" />
+						</div>
+					</form>
+				</div>
+				<h3>Code</h3>
+				<xmp><div class="form-login">
+  <form>
+    <div class="form-item">
+	  <label>Username</label>
+	  <input class="form-input" type="text" placeholder="Email/Tel" />
+	</div>
+	<div class="form-item">
+	  <label>Password</label>
+	  <input class="form-input" type="password" />
+	</div>
+	<div class="form-item">
+	  <label>&nbsp</label>
+	  <input class="btn-biu-blue" type="submit" value="Login" />
+	</div>
+  </form>
+</div></xmp>
+				<h3>2. Textarea form</h3>
+				<div class="form-text">
+					<form>
+						<div class="form-area">
+							<textarea rows="1" placeholder="Say something?"></textarea>
+						</div>
+						<div>
+							<input class="btn-biu-green" type="submit" value="Post"/>
+						</div>
+					</form>
+				</div>
+				<h3>Code</h3>
+				<xmp><div class="form-text">
+  <form>
+    <div class="form-area">
+	  <textarea rows="1" placeholder="Say something?"></textarea>
+    </div>
+    <div>
+	  <input class="btn-biu-green" type="submit" value="Post"/>
+    </div>
+  </form>
+</div></xmp>
+			</div>
 			<div id="paginator" class="hlist">
 				<h2>Paginator</h2>
 				<h3>1. Paginator-sext</h3>
@@ -297,7 +358,7 @@
 	  		<p>MIT Licence</p>
 		</div>
 	</footer>
-	<script src="js/biu.js"></script>
 	<script src="js/jquery.js"></script>
+	<script src="js/biu.js"></script>
   </body>
 </html>
