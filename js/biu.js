@@ -18,10 +18,10 @@ $("#showContainer [class*='span']").mouseout(function () {
 
 // show hidden items (nav and dropdown button)
 $('.show-more').bind('click', function() {
-	if($('.more-items').css('display') == 'block') {
-		$('.more-items').css('display', 'none');
+	if($(this).next().css('display') == 'block') {
+		$(this).next().css('display', 'none');
 	} else {
-		$('.more-items').css('display', 'block');
+		$(this).next().css('display', 'block');
 	}
 });
 

@@ -79,6 +79,7 @@ a {
   display: none;
   position: absolute;
   background-color: #fff;
+  border-bottom: 1px solid #ccc;
 }
 
 .more-items li {
@@ -94,10 +95,6 @@ a {
 .more-items a:hover {
   background-color: #077;
   color: #fff;
-}
-
-.more-items {
-  border-bottom: 1px solid #ccc;
 }
 
 .nav-top-fixed, .nav-buttom-fixed {
@@ -567,6 +564,36 @@ xmp {
   background-color: #ff0000;
   color: #fff;
 }
+
+.btn-drop {
+  display: none;
+  font-size: 12px;
+  position: absolute;
+  background: none repeat scroll 0 0 #fae9da;
+  border-radius: 3px 3px 3px 3px;
+  border-bottom: 1px solid #ccc;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.btn-drop li:first-child {
+  margin-top: 10px;
+}
+.btn-drop li {
+  display: block;
+  height: 30px;
+}
+
+.btn-drop li a {
+  color: #ca6445;
+  padding: 3px 12px;
+}
+
+.btn-drop li a:hover {
+  background: #ca6445;
+  color: #fff;
+}
+
 /* Form*/
 .form-login {
   background-color: #fff;
