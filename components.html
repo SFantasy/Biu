@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="author" content="SFantasy" />
+		<link rel="stylesheet" href="stylesheets/basic.css" type="text/css" />
+		<title>Components - Biu Library</title>
+	</head>
+    <body>
+		<nav class="navbar top-fixed">
+			<div class="inner">
+				<ul class="nav-items">
+					<li><a href="index.html">首页</a></li>
+					<li><a href="layout.html">布局</a></li>
+					<li><a href="components.html" class="active">组件</a></li>
+					<li><a href="plugins.html">插件</a></li>
+				</ul>
+			</div>
+		</nav>
+		<div class="container">
+	    	<div class="row">
+				<div class="span3">
+				  <ul class="menu-sext menu-fixed">
+					<li><a href="#nav">Nav</a></li>
+					<li><a href="#menu">Menu</a></li>
+					<li><a href="#button">Button</a></li>
+					<li><a href="#form">Form</a></li>
+					<li><a href="#paginator">Paginator</a></li>
+				  </ul>
+				</div>
+				<div class="span7 span-right">
+	  				<div id="nav" class="hlist">
+						<h2>Nav</h2>
+						<h3>1. Basic Navigator</h3>
+						<nav class="navbar">
+							<ul class="nav-items">
+								<li><a>item1</a></li>
+								<li><a>item2</a></li>
+								<li><a>item3</a></li>
+							</ul>
+						</nav>
+		  				<h3>Code</h3>
+		  				<xmp><nav class="navbar">
+  <ul class="nav-items">
+    <li><a href="">item1</a></li>
+    <li><a href="">item2</a></li>
+    <li><a href="">item3</a></li>
+  </ul>
+</nav></xmp>
+					  	<h3>2. Active item</h3>
+					  	<nav class="navbar">
+							<ul class="nav-items">
+						  		<li><a class="active" href="">item1</a></li>
+						  		<li><a>item2</a></li>
+						  		<li><a>item3</a></li>
+							</ul>
+					  	</nav>	  
+					  	<h3>Code</h3>
+		  				<xmp><nav class="navbar">
+  <ul class="nav-items">
+    <li><a class="active" href="">item1</a></li>
+    <li><a href="">item2</a></li>
+    <li><a href="">item3</a></li>
+  </ul>
+</nav></xmp>
+						<h3>3. More items</h3>
+						<nav class="navbar">
+							<ul class="nav-items">
+								<li><a class="active">item1</a></li>
+								<li><a>item3</a></li>
+								<li>
+									<a class="show-more"><span>more-items1</span></a>
+									<ul class="more-items">
+										<li><a>more-1</a></li>
+										<li><a>more-2</a></li>
+										<li><a>more-3</a></li>
+									</ul>
+								</li>
+								<li>
+									<a class="show-more"><span>more-items2</span></a>
+									<ul class="more-items">
+										<li><a>more-1</a></li>
+										<li><a>more-2</a></li>
+										<li><a>more-3</a></li>
+									</ul>
+								</li>
+							</ul>
+						</nav>
+						<h3>Code</h3>
+						<xmp><nav class="navbar">
+  <ul class="nav-items">
+	<li><a class="active">item1</a></li>
+	<li><a>item3</a></li>
+    <li><a onclick="showItems()"><span>more-items</span></a>
+      <ul class="more-items">
+        <li><a href="">more-1</a></li>
+        <li><a href="">more-2</a></li>
+        <li><a href="">more-3</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></xmp>
+					</div>
+					<div id="menu" class="hlist">
+						<h2>Menu</h2>
+						<h3>1. Flat menu</h3>
+						<ul class="menu-flat">
+						    <li><a>item1</a></li>
+						    <li><a>item2</a></li>
+						    <li><a>item3</a></li>
+				        </ul>
+					    <h3>Code</h3>
+			  			<xmp><ul class="menu-flat">
+  <li><a href="#">item1</a></li>
+  <li><a href="#">item2</a></li>
+  <li><a href="#">item3</a></li>
+</ul></xmp>
+					    <h3>2. Sext menu</h3>
+					    <h4>2.1 Default Sext menu</h4>
+						<ul class="menu-sext">
+							<li><a>item1</a></li>
+							<li><a>item2</a></li>
+							<li><a>item3</a></li>
+						</ul>
+						<h3>Code</h3>
+						<xmp><ul class="menu-sext">
+  <li><a href="#">item1</a></li>
+  <li><a href="#">item2</a></li>
+  <li><a href="#">item3</a></li>
+</ul></xmp>
+						<h4>2.2 Black Sext menu</h4>
+						<ul class="menu-sext-black">
+							<li><a>item1</a></li>
+							<li><a>item2</a></li>
+							<li><a>item3</a></li>
+						</ul>
+						<h3>Code</h3>
+						<xmp><ul class="menu-sext">
+  <li><a href="#">item1</a></li>
+  <li><a href="#">item2</a></li>
+  <li><a href="#">item3</a></li>
+</ul></xmp>
+						<h4>2.3 Red Sext menu</h4>
+						<ul class="menu-sext-red">
+							<li><a>item1</a></li>
+							<li><a>item2</a></li>
+							<li><a>item3</a></li>
+						</ul>
+						<h3>Code</h3>
+						<xmp><ul class="menu-sext">
+  <li><a href="#">item1</a></li>
+  <li><a href="#">item2</a></li>
+  <li><a href="#">item3</a></li>
+</ul></xmp>
+						<h3>3. Bootstrap-style menu</h3>
+						<ul class="menu-bs">
+							<li><a>item1</a></li>
+							<li><a>item2</a></li>
+							<li><a>item3</a></li>
+						</ul>
+						<h3>Code</h3>
+						<xmp>
+<ul class="menu-bs">
+  <li><a href="#">item1</a></li>
+  <li><a href="#">item2</a></li>
+  <li><a href="#">item3</a></li>
+</ul>
+				</xmp>
+					</div>
+					<div id="button" class="hlist">
+			    		<h2>Button</h2>
+		    			<h3>Basic buttons</h3>
+						<table class="tb-bs">
+							<thead>
+								<tr>
+									<th>Buttons</th>
+									<th>Class=" "</th>
+									<th>Description</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th>
+										<button class="btn-db btn-red" type="button">db-btn</button>
+									</th>
+									<th>
+										<code>db-btn btn-red</code>
+									</th>
+									<th>暖色调的豆瓣按钮</th>
+								</tr>
+								<tr>
+									<th>
+										<button class="btn-db btn-green" type="button">db-btn</button>
+									</th>
+									<th>
+										<code>db-btn btn-green </code>
+									</th>
+									<th>冷色调的豆瓣按钮</th>
+								</tr>
+								<tr>
+									<th>
+										<button class="btn-bs" type="button">btn-bs</button>
+									</th>
+									<th>
+										<code>btn-bs</code>
+									</th>
+									<th>Bootstrap风格的普通按钮</th>
+								</tr>
+								<tr>
+									<th>
+										<button class="btn-bs btn-primary" type="button">btn-bs</button>
+									</th>
+									<th>
+										<code>btn-bs btn-primary</code>
+									</th>
+									<th>Bootstrap风格的蓝色按钮，易吸引关注点</th>
+								</tr>
+								<tr>
+									<th>
+										<button class="btn-bs btn-danger" type="button">btn-bs</button>
+									</th>
+									<th>
+										<code>btn-bs btn-danger</code>
+									</th>
+									<th>Bootstrap风格的红色按钮，用于警告等场景</th>
+								</tr>
+								<tr>
+									<th>
+										<button class="btn-biu">btn-biu</button>
+									</th>
+									<th>
+										<code>btn-biu</code>
+									</th>
+									<th>黑白、方正、扁平风格的按钮</th>
+								</tr>
+								<tr>
+								<th>
+									<button class="btn-biu-blue">btn-biu-blue</button>
+								</th>
+								<th>
+									<code>btn-biu-blue</code>
+								</th>
+								<th>蓝色、方正、扁平风格的按钮</th>
+								</tr>
+								<tr>
+								<th>
+									<button class="btn-biu-green">btn-biu-green</button>
+								</th>
+								<th>
+									<code>btn-biu-green</code>
+								</th>
+								<th>绿色、方正、扁平风格的按钮</th>
+								</tr>
+								<tr>
+								<th>
+									<button class="btn-biu-red">btn-biu-red</button>
+								</th>
+								<th>
+									<code>btn-biu-red</code>
+								</th>
+								<th>红白、方正、扁平风格的按钮</th>
+								</tr>
+							</tbody>
+						</table>
+			  			<h3>Dropdown button</h3>
+			  			<div class="button-box">
+			  				<button class="btn-db btn-red show-more">Dropdown</button>
+			  				<ul class="btn-drop">
+			  					<li><a>item1</a></li>
+			  					<li><a>item2</a></li>
+			  					<li><a>item3</a></li>
+			  				</ul>
+			  			</div>
+			  			<h3>Code</h3>
+			  			<xmp><div class="button-box">
+  <button class="btn-db btn-red show-more">Dropdown</button>
+  <ul class="btn-drop">
+    <li><a>item1</a></li>
+    <li><a>item2</a></li>
+    <li><a>item3</a></li>
+  </ul>
+</div></xmp>
+					</div>
+					<div id="form" class="hlist">
+						<h2>Form</h2>
+						<h3>1. Login form</h3>
+						<div class="form-login">
+							<form>
+								<div class="form-item">
+									<label>Username</label>
+									<input class="form-input" type="text" placeholder="Email/Tel" />
+								</div>
+								<div class="form-item">
+									<label>Password</label>
+									<input class="form-input" type="password" />
+								</div>
+								<div class="form-item">
+									<label>&nbsp</label>
+									<input class="btn-biu-blue" type="submit" value="Login" />
+								</div>
+							</form>
+						</div>
+						<h3>Code</h3>
+						<xmp><div class="form-login">
+  <form>
+    <div class="form-item">
+	  <label>Username</label>
+	  <input class="form-input" type="text" placeholder="Email/Tel" />
+	</div>
+	<div class="form-item">
+	  <label>Password</label>
+	  <input class="form-input" type="password" />
+	</div>
+	<div class="form-item">
+	  <label>&nbsp</label>
+	  <input class="btn-biu-blue" type="submit" value="Login" />
+	</div>
+  </form>
+</div></xmp>
+						<h3>2. Textarea form</h3>
+						<div class="form-text">
+							<form>
+								<div class="form-area">
+									<textarea rows="1" placeholder="Say something?"></textarea>
+								</div>
+								<div>
+									<input class="btn-biu-green" type="submit" value="Post"/>
+								</div>
+							</form>
+						</div>
+						<h3>Code</h3>
+						<xmp><div class="form-text">
+  <form>
+    <div class="form-area">
+	  <textarea rows="1" placeholder="Say something?"></textarea>
+    </div>
+    <div>
+	  <input class="btn-biu-green" type="submit" value="Post"/>
+    </div>
+  </form>
+</div></xmp>
+					</div>
+					<div id="paginator" class="hlist">
+						<h2>Paginator</h2>
+						<h3>1. Paginator-sext</h3>
+						<div class="paginator">
+							<span class="pag-disable">Prev</span>
+							<span class="pag-current">1</span>
+							<a href="#">2</a>
+							<a href="#">3</a>
+							<a>Next</a>
+						</div>
+						<h3>Code</h3>
+						<xmp><div class="paginator">
+  <span class="pag-disable">Prev</span>
+  <span class="pag-current">1</span>
+  <a href="#">2</a>
+  <a href="#">3</a>
+  <a>Next</a>
+</div></xmp>
+						<h3>2. Douban-style paginator</h3>
+						<div class="paginator-db">
+							<span class="pag-db-disable">Prev</span>
+							<span class="pag-db-current">1</span>
+							<a href="#">2</a>
+							<a href="#">3</a>
+							<a>Next</a>
+						</div>
+						<xmp><div class="paginator-db">
+  <span class="pag-db-disable">Prev</span>
+  <span class="pag-db-current">1</span>
+  <a href="#">2</a>
+  <a href="#">3</a>
+  <a>Next</a>
+</div></xmp>
+					</div>
+				</div>
+	  		</div>
+		</div>
+		<a href="https://github.com/SFantasy/Biu"><img src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub" style="position: fixed; top: 0; right: 0; border: 0;"></a>
+		<footer class="footer bottom-fixed">
+			<div class="container">
+				<p>Designed by <a href="http://weibo.com/shaofantasy">@SFantasy</a></p>
+		  		<p>MIT Licence</p>
+			</div>
+		</footer>
+		<script src="js/jquery.js"></script>
+		<script src="js/biu.js"></script>
+    </body>
+</html>
