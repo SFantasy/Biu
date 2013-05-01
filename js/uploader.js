@@ -1,4 +1,22 @@
-/* Uploader.js for uploading images in Biu Library */
+/* choose file */
+function processFiles(files) {
+	var file = files[0];
+	var reader = new FileReader();
+	
+	reader.onload = function(e) {
+		var output = document.getElementById('fileOutput');
+		output.textContent = e.target.result;
+	};
+	
+	reader.readAsText(file);
+}
+
+function showFileInput() {
+	var fileInput = document.getElementById('fileInput');
+	fileInput.click();
+}
+
+/* choose images */
 
 var uploader;
 
@@ -21,10 +39,10 @@ function drop(e) {
 	var data = e.dataTransfer;
 	var files = data.files;
 	
-	processFiles(files);
+	processImage(files);
 };
 
-function processFiles(files) {
+function processImage(files) {
 	var file = files[0];
 	var reader = new FileReader();
 	
@@ -34,3 +52,4 @@ function processFiles(files) {
 		
 	reader.readAsDataURL(file);
 };
+

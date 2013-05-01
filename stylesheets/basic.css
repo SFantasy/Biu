@@ -701,6 +701,18 @@ xmp {
 /* Plugins */
 
 /* Upload plugin */
+#fileInput {
+  display: none;
+}
+#fileOutput {
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+  border: 2px solid #83bf73;
+  border-radius: 4px;
+  margin: 15px;
+  padding: 5px;
+}
 #imgloader {
   margin: 15px;
   width: 200px;
@@ -714,7 +726,6 @@ xmp {
 	font-size: 16px;
 	color: #777;
 }
-
 /* Footer */
 .footer {
   text-align: center;
