@@ -4,15 +4,15 @@
 
 // show span in layout.html
 $('#showContainer').mouseover(function() {
-  	$(this).css("background-color", "#66cdaa");
-});
-$('#showContainer').mouseout(function() {
-  	$(this).css("background-color", "#eee");
-});
-$("#showContainer [class*='span']").mouseover(function () {
 	$(this).css("background-color", "#66cdaa");
 });
-$("#showContainer [class*='span']").mouseout(function () {
+$('#showContainer').mouseout(function() {
+	$(this).css("background-color", "#eee");
+});
+$(".showlayout [class*='span'], #showRow [class*='span']").mouseover(function () {
+	$(this).css("background-color", "#66cdaa");
+});
+$(".showlayout [class*='span'], #showRow [class*='span']").mouseout(function () {
 	$(this).css("background-color", "#eee");
 });
 
