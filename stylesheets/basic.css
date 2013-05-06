@@ -97,9 +97,8 @@ a {
   color: #fff;
 }
 
-.nav-top-fixed, .nav-buttom-fixed {
+.top-fixed, .buttom-fixed {
   position: fixed;
-  margin-bottom: 0;
 }
 
 .top-fixed {
