@@ -97,11 +97,8 @@ a {
   color: #fff;
 }
 
-.top-fixed, .buttom-fixed {
-  position: fixed;
-}
-
 .top-fixed {
+  position: fixed;
   top: 0;
 }
 
@@ -725,6 +722,15 @@ xmp {
 	font-size: 16px;
 	color: #777;
 }
+
+/* Gallery */
+.gallery {
+  width: 250px;
+  height: 190px;
+  overflow: hidden;
+  position: relative;
+}
+
 /* Footer */
 .footer {
   text-align: center;
