@@ -33,3 +33,15 @@ $('.form-area textarea').focus(function() {
 $('.form-area textarea').focusout(function() {
 	$(this).css('height', '16px');
 });
+
+// gallery plugin 
+$('.img-change li').hover(function() {
+	var index = $('.img-change li').index(this);
+	$('.img-show li').each(function(i) {
+		if(index == i) {
+			$('.img-show li').eq(i).css('z-index', 9);
+		} else {
+			$('.img-show li').eq(i).css('z-index', 1);
+		}
+	});
+});

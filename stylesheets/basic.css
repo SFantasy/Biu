@@ -99,6 +99,7 @@ a {
 
 .top-fixed {
   position: fixed;
+  z-index: 11;
   top: 0;
 }
 
@@ -729,6 +730,29 @@ xmp {
   height: 190px;
   overflow: hidden;
   position: relative;
+}
+.img-change {
+  position: absolute;
+  right: 10px;
+  bottom: 3px;
+  background-color: #fff;
+  opacity: 0.8;
+  z-index: 11;
+}
+.img-show li {
+  width: 250px;
+  height: 190px;
+  overflow: hidden;
+  position: absolute;
+  z-index: 1;
+}
+.img-change li {
+  float: left;
+  width: 18px;
+  font-size: 13px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #ccc;
 }
 
 /* Footer */
