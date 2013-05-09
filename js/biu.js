@@ -25,6 +25,20 @@ $('.show-more').bind('click', function() {
 	}
 });
 
+// tab-bar (show tabs)
+$('.tab-header ul > li').hover(function() {
+	var index = $('.tab-header ul > li').index(this);
+	$('.tab-body .tab-item').each(function(i) {
+		if(index == i) {
+			$('.tab-header ul > li').eq(i).addClass('tab-active');
+			$('.tab-body .tab-item').eq(i).css('display', 'block');
+		} else {
+			$('.tab-header ul > li').eq(i).removeClass('tab-active');
+			$('.tab-body .tab-item').eq(i).css('display', 'none');
+		}
+	});
+});
+
 // textarea form event
 $('.form-area textarea').focus(function() {
 	$(this).css('height', '50px');
