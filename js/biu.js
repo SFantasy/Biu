@@ -59,3 +59,20 @@ $('.img-change li').hover(function() {
 		}
 	});
 });
+
+$('.slide-left').click(function() {
+	var offset = $('.gallery-slides ul').css('left');
+    if(offset == '0px') {
+		var offset = $('.gallery-slides ul').css('left', '-259px');
+    } else if (offset == '-259px') {
+		var offset = $('.gallery-slides ul').css('left', '-518px');
+	}
+});
+$('.slide-right').click(function() {
+    var offset = $('.gallery-slides ul').css('left');
+    if(offset == '-518px') {
+		var offset = $('.gallery-slides ul').css('left', '-259px');
+    } else if (offset == '-259px') {
+		var offset = $('.gallery-slides ul').css('left', '0px');
+	}
+});
