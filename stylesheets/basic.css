@@ -345,10 +345,10 @@ table code {
 }
 
 xmp {
-  border: 1px solie #cccccc;
+  border: 1px solid #cccccc;
   border-radius: 3px;
   line-height: 18px;
-  padding: 5px 0 5px 0; 
+  padding: 5px; 
   background-color: #f8f8f8;
   font-family: "Source Code Pro", Consolas, sans-serif;
   font-size: 13px;
@@ -798,6 +798,41 @@ xmp {
   border: 1px solid #ccc;
 }
 
+.gallery-slides {
+  width: 299px;
+  height: 190px;
+  overflow: hidden; 
+}
+.slide-left, .slide-right {
+  display: block;
+  width: 20px;
+  height: 190px;
+  vertical-align: middle;
+  padding-top: 80px;
+}
+.slide-left {
+  float: left;
+}
+.slide-right {
+  float: right;
+}
+.slides-inside {
+  position: relative;
+  overflow: hidden;
+  width: 259px;
+  height: 190px;
+  float: left;
+}
+.gallery-slides ul {
+  position: absolute;
+  width: 999999px;
+  left: 0;
+  -webkit-transition: left 0.5s linear;
+}
+.gallery-slides ul>li {
+  display: block;
+  float: left;
+}
 /* Footer */
 .footer {
   text-align: center;
