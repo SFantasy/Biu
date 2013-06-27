@@ -843,3 +843,111 @@ xmp {
   border-top: 1px solid #f5f5f5;
   padding: 30px 0;
 }
+
+/* Colors */
+
+/* 银星海棠*/
+.bg-ht {
+    background-color: rgb(245, 36, 67);
+}
+.fg-ht {
+    color: rgb(245, 36, 67);
+}
+/* 曙红 */
+.bg-sh {
+    background-color: rgb(230, 0, 57);
+}
+.fg-sh {
+    color: rgb(230, 0, 57);
+}
+/* 月季红 */
+.bg-yj {
+    background-color: rgb(225, 11, 43);
+}
+.fg-yj {
+    color: rgb(255, 11, 43);
+}
+/* 蕉红 */
+.bg-jh {
+    background-color: rgb(215, 4, 25);
+}
+.fg-jh {
+    color: rgb(215, 4, 25);
+}
+/* 桔红 */
+.bg-jh2 {
+    background: rgb(255, 68, 26);
+}
+.fg-jh2 {
+    color: rgb(255, 68, 26);
+}
+/* 茉莉花红 */
+.bg-ml {
+    background-color: rgb(204, 0, 51);
+}
+.fg-ml {
+    color: rgb(204, 0, 51);
+}
+/* 腥红 */
+.bg-xh {
+    background-color: rgb(204, 0, 0);
+}
+.fg-xh {
+    color: rgb(204, 0, 0);
+}
+/* 鸟罗松红 */
+.bg-nls {
+  background-color: rgb(200, 9, 38);
+}
+.fg-nls {
+  color: rgb(200, 9, 38);
+}
+/* 番茄红 */
+.bg-fq {
+  background-color: rgb(199, 0, 36);
+}
+.fg-fq {
+  color: rgb(199, 9, 36);
+}
+/* 艳红 */
+.bg-yh {
+  background-color: rgb(191, 4, 23);
+}
+.fg-yh {
+  color: rgb(191, 4, 23);
+}
+/* 牡丹红 */
+.bg-md {
+  background-color: rgb(184, 2, 51);
+}
+.fg-md {
+  color: rgb(184, 2, 51);
+}
+/* 象牙红 */
+.bg-xy {
+  background-color: rgb(179, 0, 0);
+}
+.fg-xy {
+  color: rgb(179, 0, 0);
+}
+/* 辰砂 */
+.bg-cs {
+  background-color: rgb(206, 59, 59);
+}
+.fg-cs {
+  color: rgb(206, 59, 59);
+}
+/* 土红 */
+.bg-th {
+  background-color: rgb(188, 46, 46);
+}
+.fg-th {
+  color: rgb(188, 46, 46);
+}
+/* 榴花红 */
+.bg-lh {
+  background-color: rgb(176, 37, 2);
+}
+.fg-lh {
+  color: rgb(176, 37, 2);
+}
