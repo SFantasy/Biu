@@ -345,7 +345,7 @@ table code {
 }
 
 xmp {
-  border: 1px solid #cccccc;
+  border: 1px solid #f1f1f1;
   border-radius: 3px;
   line-height: 18px;
   padding: 5px; 
@@ -646,7 +646,6 @@ xmp {
 .form-item label {
   float: left;
   text-align: right;
-  width: 100px;
   font-size: 14px;
   line-height: 30px;
   margin-right: 15px;
@@ -846,6 +845,7 @@ xmp {
 
 /* Colors */
 
+/* RED */
 /* 银星海棠*/
 .bg-ht {
     background-color: rgb(245, 36, 67);
@@ -950,4 +950,110 @@ xmp {
 }
 .fg-lh {
   color: rgb(176, 37, 2);
+}
+/* YELLOW */
+/**/
+.bg-hf {
+  background-color: rgb(255, 250, 232);
+}
+.fg-hf {
+  color: rgb(255, 250, 232);
+}
+/**/
+.bg-yb {
+  background-color: rgb(255, 250, 230);
+}
+.fg-yb {
+  color: rgb(255, 250, 230);
+}
+/**/
+.bg-lb {
+  background-color: rgb(254, 248, 222);
+}
+.fg-lb {
+  color: rgb(254, 248, 222);
+}
+/**/
+.bg-rb {
+  background-color: rgb(254, 243, 201);
+}
+.fg-rb {
+  color: rgb(254, 243, 201);
+}
+/**/
+.bg-rh {
+  background-color: rgb(254, 239, 182);
+}
+.fg-rh {
+  color: rgb(254, 239, 182);
+}
+/**/
+.bg-dd {
+  background-color: rgb(249, 228, 89);
+}
+.fg-dd {
+  color: rgb(249, 228, 89);
+}
+/**/
+.bg-xh2{
+  background-color: rgb(218, 214, 171);
+}
+.fg-xh2 {
+  color: rgb(218, 214, 171);
+}
+/**/
+.bg-dh {
+  background-color: rgb(254, 248, 201);
+}
+.fg-dh {
+  color: rgb(254, 248, 201);
+}
+/**/
+.bg-fcf {
+  background-color: rgb(254, 244, 180);
+}
+.fg-fcf {
+  color: rgb(254, 244, 180);
+}
+/**/
+.bg-xjh {
+  background-color: rgb(239, 231, 171);
+}
+.fg-xjh {
+  color: rgb(239, 231, 171);
+}
+/**/
+.bg-dm {
+  background-color: rgb(255, 255, 215);
+}
+.fg-dm {
+  color: rgb(255, 255, 215);
+}
+/**/
+.bg-th2 {
+  background-color: rgb(250, 237, 75);
+}
+.fg-th2 {
+  color: rgb(250, 237, 75);
+}
+/**/
+.bg-kl {
+  background-color: rgb(211, 211, 124);
+}
+.fg-kl {
+  color: rgb(211, 211, 124);
+}
+/**/
+.bg-njh {
+  background-color: rgb(254, 242, 99);
+}
+.fg-njh {
+  color: rgb(254, 242, 99);
+}
+/**/
+.bg-ch {
+  background-color: rgb(244, 234, 32);
+}
+.fg-ch {
+  color: rgb(244, 234, 32);
 }
