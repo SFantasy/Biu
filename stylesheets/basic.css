@@ -952,108 +952,214 @@ xmp {
   color: rgb(176, 37, 2);
 }
 /* YELLOW */
-/**/
+/* 胡粉 */
 .bg-hf {
   background-color: rgb(255, 250, 232);
 }
 .fg-hf {
   color: rgb(255, 250, 232);
 }
-/**/
+/* 银白 */
 .bg-yb {
   background-color: rgb(255, 250, 230);
 }
 .fg-yb {
   color: rgb(255, 250, 230);
 }
-/**/
+/* 腊白 */
 .bg-lb {
   background-color: rgb(254, 248, 222);
 }
 .fg-lb {
   color: rgb(254, 248, 222);
 }
-/**/
+/* 乳白 */
 .bg-rb {
   background-color: rgb(254, 243, 201);
 }
 .fg-rb {
   color: rgb(254, 243, 201);
 }
-/**/
+/* 乳黄 */
 .bg-rh {
   background-color: rgb(254, 239, 182);
 }
 .fg-rh {
   color: rgb(254, 239, 182);
 }
-/**/
+/* 丹东石 */
 .bg-dd {
   background-color: rgb(249, 228, 89);
 }
 .fg-dd {
   color: rgb(249, 228, 89);
 }
-/**/
+/* 虾灰 */
 .bg-xh2{
   background-color: rgb(218, 214, 171);
 }
 .fg-xh2 {
   color: rgb(218, 214, 171);
 }
-/**/
+/* 淡黄 */
 .bg-dh {
   background-color: rgb(254, 248, 201);
 }
 .fg-dh {
   color: rgb(254, 248, 201);
 }
-/**/
+/* 富春坊 */
 .bg-fcf {
   background-color: rgb(254, 244, 180);
 }
 .fg-fcf {
   color: rgb(254, 244, 180);
 }
-/**/
+/* 小鸠黄 */
 .bg-xjh {
   background-color: rgb(239, 231, 171);
 }
 .fg-xjh {
   color: rgb(239, 231, 171);
 }
-/**/
+/* 淡米 */
 .bg-dm {
   background-color: rgb(255, 255, 215);
 }
 .fg-dm {
   color: rgb(255, 255, 215);
 }
-/**/
+/* 藤黄 */
 .bg-th2 {
   background-color: rgb(250, 237, 75);
 }
 .fg-th2 {
   color: rgb(250, 237, 75);
 }
-/**/
+/* 枯绿 */
 .bg-kl {
   background-color: rgb(211, 211, 124);
 }
 .fg-kl {
   color: rgb(211, 211, 124);
 }
-/**/
+/* 藤姜黄 */
 .bg-njh {
   background-color: rgb(254, 242, 99);
 }
 .fg-njh {
   color: rgb(254, 242, 99);
 }
-/**/
+/* 草黄 */
 .bg-ch {
   background-color: rgb(244, 234, 32);
 }
 .fg-ch {
   color: rgb(244, 234, 32);
+}
+/* GREEN */
+/* 果灰 */
+.bg-gh {
+  background-color: rgb(126, 205, 182);
+}
+.fg-gh {
+  color: rgb(126, 205, 182);
+}
+/* 冬绿 */
+.bg-dl {
+  background-color: rgb(51, 125, 86);
+}
+.fg-dl {
+  color: rgb(51, 125, 86);
+}
+/* 三绿 */
+.bg-sl {
+  background-color: rgb(179, 255, 188);
+}
+.fg-sl {
+  color: rgb(179, 255, 188);
+}
+/* 深绿宝石 */
+.bg-slbs {
+  background-color: rgb(2, 119, 79);
+}
+.fg-slbs {
+  color: rgb(2, 119, 79);
+}
+/* 鹦鹉绿 */
+.bg-ywl {
+  background-color: rgb(21, 106, 30);
+}
+.fg-ywl {
+  color: rgb(21, 106, 30);
+}
+/* 粗孔雀绿 */
+.bg-ckql {
+  background-color: rgb(2, 130, 85);
+}
+.fg-ckql {
+  color: rgb(2, 130, 85);
+}
+/* 冬瓜绿 */
+.bg-dgl {
+  background-color: rgb(52, 158, 105);
+}
+.fg-dgl {
+  color: rgb(52, 258, 105);
+}
+/* 玉绿 */
+.bg-yl {
+  background-color: rgb(111, 249, 193);
+}
+.fg-yl {
+  color: rgb(111, 249, 193);
+}
+/* 巴黎绿 */
+.bg-bll {
+  background-color: rgb(2, 179, 64);
+}
+.fg-bll {
+  color: rgb(2, 179, 64);
+}
+/* 黛蓝 */
+.bg-dl {
+  background-color: rgb(19, 30, 30);
+}
+.fg-dl {
+  color: rgb(19, 30, 30);
+}
+/* 正灰 */
+.bg-zh {
+  background-color: rgb(188, 199, 199);
+}
+.fg-zh {
+  color: rgb(188, 199, 199);
+}
+/* 蓝灰 */
+.bg-lanh {
+  background-color: rgb(139, 163, 158);
+}
+.fg-lanh {
+  color: rgb(139, 163, 158);
+}
+/* 沙绿 */
+.bg-shal {
+  background-color: rgb(0, 49, 41);
+}
+.fg-shal {
+  color: rgb(0, 49, 41);
+}
+/* 春蓝 */
+.bg-cl {
+  background-color: rgb(152, 180, 179);
+}
+.fg-cl {
+  color: rgb(152, 180, 179);
+}
+/* 鸭蛋青 */
+.bg-ydq {
+  background-color: rgb(230, 255, 253);
+}
+.fg-ydq {
+  color: rgb(230, 255, 253);
 }
