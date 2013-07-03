@@ -19,9 +19,9 @@ Doc site:[shaofantasy.cn/Biu](http://shaofantasy.cn/Biu)
 
 ## What's this?
 
-* Biu is a Simple & Stupid UI Library for building tiny and lovely websites.
+* **Biu** is a Simple & Stupid UI Library for building tiny and lovely websites.
 
-* Influence by [Bootstrap](http://twitter.github.com/bootstrap) and [Douban](http://www.douban.com)
+* Influenced by [Bootstrap](http://twitter.github.com/bootstrap) and [Douban](http://www.douban.com)
 
 
 ## Licence
