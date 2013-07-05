@@ -27,7 +27,7 @@
 
 [shaofantasy.cn/Biu](http://shaofantasy.cn/Biu)
 
-BTW, 该网址为**Biu**的文档站点，同时也是开发分支。
+BTW, 该网址为 **Biu** 的文档站点，同时也是开发分支。
 
 ## 使用 Usage
 
