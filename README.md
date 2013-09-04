@@ -17,4 +17,9 @@ v0.2 development branch.
 * Buttons
 * Forms
 * Tabs
+* Icons
 * Plugins
+
+## History
+
+* 2013-09-03 v0.2 began.
