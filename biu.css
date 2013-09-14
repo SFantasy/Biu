@@ -1,1 +1,72 @@
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td,nav,article,footer,header,canvas{margin:0;padding:0}body{font-family:Georgia,Garamond,Times,"Times New Roman",serif}ol,li{list-style:none}a{text-decoration:none}body{background-color:#f7f7f7}.wrapper{width:960px;margin:0 auto;background-color:#fff;box-shadow:0 1px 4px rgba(0,0,0,0.067)}.navbar{background-color:#545652}.navbar li{float:left}.navbar li a{font-size:14px;color:#d5d5d5}.navbar li a,.navbar li.nav-brand{display:block;padding:5px 15px;line-height:28px;height:28px}.navbar li a:hover{color:#f7f7f7;background-color:#08c}.navbar .nav-brand{font-size:24px;font-weight:bold;color:#f7f7f7}.navbar .nav-selected a{color:#f7f7f7;background-color:#08c}.navbar-inner{width:960px;margin:0 auto;overflow:auto}
+/*    ____ ___ _   _        ___   ____  
+ *   | __ )_ _| | | |_   __/ _ \ |___ \ 
+ *   |  _ \| || | | \ \ / / | | |  __) |
+ *   | |_) | || |_| |\ V /| |_| | / __/ 
+ *   |____/___|\___/  \_/  \___(_)_____|
+ *
+ *  Filename: biu.sass
+ *  Author: forever.fantasy27@gmail.com
+ *  Create: 2013-09-04
+ *  Update: 2013-09-04 20:00
+ */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6,
+pre, code, form, fieldset, legend, input, button, textarea, p,
+blockquote, th, td, nav, article, footer, header, canvas {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: Georgia, Garamond, Times, "Times New Roman", serif; }
+
+ol, li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+body {
+  background-color: #f7f7f7; }
+
+.wrapper,
+footer {
+  width: 960px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067); }
+
+footer p {
+  text-align: center;
+  font-size: 14px; }
+  footer p a {
+    color: #333333; }
+    footer p a:hover {
+      color: #999999; }
+
+.navbar {
+  background-color: #545652; }
+  .navbar li {
+    float: left; }
+    .navbar li a {
+      font-size: 14px;
+      color: #d5d5d5; }
+    .navbar li a, .navbar li.nav-brand {
+      display: block;
+      padding: 5px 15px;
+      line-height: 28px;
+      height: 28px; }
+    .navbar li a:hover {
+      color: #f7f7f7;
+      background-color: #0088cc; }
+  .navbar .nav-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f7f7f7; }
+  .navbar .nav-selected a {
+    color: #f7f7f7;
+    background-color: #0088cc; }
+
+.navbar-inner {
+  width: 960px;
+  margin: 0 auto;
+  overflow: auto; }
