@@ -1,0 +1,84 @@
+/*  Biu.sass 
+ *  Author: forever.fantasy27@gmail.com
+ *  Create: 2013-09-04
+ *  Update: 2013-09-04 20:00
+ */
+
+// remove default margin and padding for elements
+body, div, dl, dt, dd, ul, ol, li,
+h1, h2, h3, h4, h5, h6, pre, code, form,
+fieldset, legend, input, button, textarea, p, blockquote, th, td,
+nav, article, footer, header, canvas
+    margin: 0
+    padding: 0
+
+// Colors
+// Black(1~9)
+$black: #545652
+// Gray(1~9)
+$gray: #d5d5d5
+// White(1~3)
+$white-3: #fff
+$white-2: #f7f7f7
+$white-1: #f0f0f0
+// Blue
+$blue: #08c
+
+// Global
+body
+    font-family: Georgia, Garamond, Times, "Times New Roman", serif
+ol, li
+    list-style: none
+a
+    text-decoration: none
+
+// Site style
+body
+    background-color: $white-2
+.wrapper
+    width: 960px
+    margin: 0 auto
+    background-color: $white-3
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067)
+
+// Navs
+.navbar
+    background-color: $black
+    li
+        float: left
+        a
+            font-size: 14px
+            color: $gray
+        a, &.nav-brand
+            display: block
+            padding: 5px 15px
+            line-height: 28px
+            height: 28px
+        a:hover
+            color: $white-2
+            background-color: $blue
+    .nav-brand
+        font-size: 24px
+        font-weight: bold
+        color: $white-2
+    .nav-selected
+        a
+            color: $white-2
+            background-color: $blue
+
+.navbar-inner
+    width: 960px
+    margin: 0 auto
+    overflow: auto
+
+// Menus
+
+// Buttons
+
+// Forms
+
+// Tabs
+
+// Icons
+
+// Plugins
