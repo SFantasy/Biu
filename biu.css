@@ -35,38 +35,73 @@ footer {
   background-color: white;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067); }
 
+.section h2 {
+  font-size: 24px;
+  color: #333333;
+  border-bottom: 1px solid #d5d5d5; }
+.section h3 {
+  font-size: 16px;
+  color: #999999; }
+.section xmp {
+  border: 1px solid #d5d5d5;
+  padding: 5px 15px;
+  color: #777777;
+  font-family: monospace; }
+
 footer p {
   text-align: center;
   font-size: 14px; }
   footer p a {
     color: #333333; }
     footer p a:hover {
-      color: #999999; }
+      color: #f7f7f7;
+      background-color: #333333; }
 
-.navbar {
-  background-color: #545652; }
-  .navbar li {
+.nav ul,
+.nav-revert ul {
+  overflow: auto; }
+  .nav ul li,
+  .nav-revert ul li {
     float: left; }
-    .navbar li a {
-      font-size: 14px;
-      color: #d5d5d5; }
-    .navbar li a, .navbar li.nav-brand {
+    .nav ul li a,
+    .nav-revert ul li a {
+      font-size: 14px; }
+    .nav ul li a, .nav ul li.nav-brand,
+    .nav-revert ul li a,
+    .nav-revert ul li.nav-brand {
       display: block;
       padding: 5px 15px;
       line-height: 28px;
       height: 28px; }
-    .navbar li a:hover {
+    .nav ul li a:hover,
+    .nav-revert ul li a:hover {
       color: #f7f7f7;
       background-color: #0088cc; }
-  .navbar .nav-brand {
-    font-size: 24px;
-    font-weight: bold;
-    color: #f7f7f7; }
-  .navbar .nav-selected a {
-    color: #f7f7f7;
-    background-color: #0088cc; }
+    .nav ul li .nav-brand,
+    .nav-revert ul li .nav-brand {
+      font-size: 24px;
+      font-weight: bold;
+      color: #f7f7f7; }
+    .nav ul li .nav-selected a,
+    .nav-revert ul li .nav-selected a {
+      color: #f7f7f7;
+      background-color: #0088cc; }
+.nav .nav-brand,
+.nav-revert .nav-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f7f7f7; }
 
-.navbar-inner {
+.nav-revert {
+  background-color: #545652; }
+  .nav-revert ul li a {
+    color: #d5d5d5; }
+
+.nav {
+  background-color: #f7f7f7; }
+  .nav ul li a {
+    color: #777777; }
+
+.nav-inner {
   width: 960px;
-  margin: 0 auto;
-  overflow: auto; }
+  margin: 0 auto; }
