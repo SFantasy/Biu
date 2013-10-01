@@ -1,0 +1,62 @@
+/*  
+ *    ____ ___ _   _        ___   ____  
+ *   | __ )_ _| | | |_   __/ _ \ |___ \ 
+ *   |  _ \| || | | \ \ / / | | |  __) |
+ *   | |_) | || |_| |\ V /| |_| | / __/ 
+ *   |____/___|\___/  \_/  \___(_)_____|
+ *
+ *  Filename: navs.sass
+ *  Author: forever.fantasy27@gmail.com
+ *  Create: 2013-10-01
+ *  Update: 2013-10-01 17:00
+ *  Description: Nav module for BIUv0.2
+ */
+
+
+.nav,
+.nav-revert
+    ul
+        overflow: auto
+        li
+            float: left
+            a
+                font-size: 14px
+            a, &.nav-brand
+                display: block
+                padding: 5px 15px
+                line-height: 28px
+                height: 28px
+            a:hover
+                color: $white-2
+                background-color: $blue-1
+            .nav-brand
+                font-size: 24px
+                font-weight: bold
+                color: $white-2
+            .nav-selected
+                a
+                    color: $white-2
+                    background-color: $blue-1
+    .nav-brand
+        font-size: 24px
+        font-weight: bold
+        color: $white-2
+
+
+.nav-revert
+    background-color: $black-3
+    ul
+        li
+            a
+                color: $gray-3
+
+.nav
+    background-color: $white-2
+    ul
+        li
+            a
+                color: $gray-1
+
+.nav-inner
+    width: 960px
+    margin: 0 auto
