@@ -1,0 +1,144 @@
+/*  
+ *    ____ ___ _   _        ___   ____  
+ *   | __ )_ _| | | |_   __/ _ \ |___ \ 
+ *   |  _ \| || | | \ \ / / | | |  __) |
+ *   | |_) | || |_| |\ V /| |_| | / __/ 
+ *   |____/___|\___/  \_/  \___(_)_____|
+ *
+ *  Filename: biu.sass
+ *  Author: forever.fantasy27@gmail.com
+ *  Create: 2013-09-04
+ *  Update: 2013-09-04 20:00
+ */
+
+// remove default margin and padding for elements
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6,
+pre, code, form, fieldset, legend, input, button, textarea, p,
+blockquote, th, td, nav, article, footer, header, canvas
+    margin: 0
+    padding: 0
+
+// Colors
+
+// Color basics
+// Black
+$black-1: #000
+$black-2: #333
+$black-3: #545652
+// Gray
+$gray-1: #777
+$gray-2: #999
+$gray-3: #d5d5d5
+// White
+$white-3: #fff
+$white-2: #f7f7f7
+$white-1: #f0f0f0
+// Blue
+$blue-1: #339
+$blue-2: #06c
+$blue-3: #09c
+$blue-4: #6cc
+// Green
+$green-1: #7c3
+$green-2: #690
+$green-3: #360
+$green-4: #990
+// Red
+$red-1: #600
+$red-2: #900
+$red-3: #c00
+$red-4: #c30
+
+// Addition colors
+$pink: #ea4c88
+$purple: #939
+
+
+// Global
+body
+    font-family: Georgia, Garamond, Times, "Times New Roman", serif
+ol, li
+    list-style: none
+a
+    text-decoration: none
+// Site style
+body
+    background-color: $white-2
+.wrapper,
+footer
+    width: 960px
+    margin: 20px auto
+    padding: 20px
+    background-color: $white-3
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067)
+
+.section
+    h2
+        font-size: 24px
+        color: $black-2
+        border-bottom: 1px solid $gray-3
+    h3
+        font-size: 16px
+        color: $gray-2
+    xmp
+        border: 1px solid $gray-3
+        padding: 5px 15px
+        color: $gray-1
+        font-family: monospace
+
+footer p
+    text-align: center
+    font-size: 14px
+    a
+        color: $black-2
+        &:hover
+            color: $white-2
+            background-color: $black-2
+// Navs
+.nav,
+.nav-revert
+    ul
+        overflow: auto
+        li
+            float: left
+            a
+                font-size: 14px
+            a, &.nav-brand
+                display: block
+                padding: 5px 15px
+                line-height: 28px
+                height: 28px
+            a:hover
+                color: $white-2
+                background-color: $blue-1
+            .nav-brand
+                font-size: 24px
+                font-weight: bold
+                color: $white-2
+            .nav-selected
+                a
+                    color: $white-2
+                    background-color: $blue-1
+    .nav-brand
+        font-size: 24px
+        font-weight: bold
+        color: $white-2
+
+
+.nav-revert
+    background-color: $black-3
+    ul
+        li
+            a
+                color: $gray-3
+
+.nav
+    background-color: $white-2
+    ul
+        li
+            a
+                color: $gray-1
+
+.nav-inner
+    width: 960px
+    margin: 0 auto
